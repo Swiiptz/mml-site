@@ -221,8 +221,7 @@
                     </h1>
                     
                     <p class="text-gray-400 text-lg max-w-lg leading-relaxed">
-                        Étudiant en école d'Ingénieur à EPITA & passionné d'informatique. Je suis un personne très curieuse, explorant différents domaine et me formant dessus.
-                    </p>
+                        Étudiant à EPITA, passionné d’informatique et animé par une curiosité insatiable. J’explore, j’apprends et je crée, toujours prêt à relever de nouveaux défis.                    </p>
                 </div>
 
                 <!-- Hero Icons & Actions -->
@@ -498,6 +497,41 @@ J’ai commencé mon aventure dans l’informatique dès l’école primaire, en
                         </div>
                     </div>
                 </div>
+                 <!-- Project 2: BarCodeZoneApp (NOUVEAU PROJET) -->
+                <div class="project-card glass rounded-xl overflow-hidden group hover:border-green-500/50 transition-all duration-300 flex flex-col hover:shadow-2xl hover:shadow-green-900/20 hover:-translate-y-2" data-category="tool" data-year="2025">
+                    <div class="relative h-56 overflow-hidden">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
+                        
+                        <img src="Img/bar-code.png" alt="BarCodeZoneApp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+
+                        
+                        <div class="absolute top-3 right-3 z-20 bg-black/70 backdrop-blur px-2 py-1 rounded border border-white/10 flex items-center gap-1">
+                            <i class="devicon-android-plain text-xs text-green-500"></i>
+                            <span class="text-[10px] text-white font-mono uppercase">Mobile Tool</span>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col bg-gradient-to-b from-transparent to-black/40">
+                        <div class="flex justify-between items-start mb-2 gap-2">
+                            <h3 class="text-xl font-bold text-white group-hover:text-green-500 transition-colors">BarCodeZoneApp</h3>
+                            <span class="text-[10px] text-gray-400 font-mono border border-white/10 px-2 py-1 rounded bg-white/5 whitespace-nowrap">2025</span>
+                        </div>
+                        
+                        <p class="text-sm text-gray-400 mb-6 flex-1 leading-relaxed">
+                            Application Android de gestion d'entrepôt 100% hors-ligne. Génération de codes-barres de zones et produits (EAN-13), gestion de favoris et personnalisation des rayonnages.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Android Studio</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Gestion de Stock</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Offline First</span>
+                        </div>
+                        <div class="flex items-center gap-3 pt-4 border-t border-white/5">
+                            <a href="rsrc/Spécifications BarCodeZoneApp.pdf" download class="flex items-center gap-2 text-xs font-bold text-green-400 hover:text-green-300 transition-colors w-full justify-center">
+                                <span class="material-symbols-outlined text-base">description</span> Télécharger les spécifications
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Project 1: Find-It (En cours) -->
                 <div class="project-card glass rounded-xl overflow-hidden group hover:border-secondary/50 transition-all duration-300 flex flex-col hover:shadow-2xl hover:shadow-secondary/10 hover:-translate-y-2" data-category="tool" data-year="2025">
                     <div class="relative h-56 overflow-hidden">
@@ -1263,7 +1297,13 @@ J’ai commencé mon aventure dans l’informatique dès l’école primaire, en
         });
 
         function downloadCV() {
-            alert("Le téléchargement du CV démarrerait ici (fichier PDF).");
+            // Update to link to the actual file in the rsrc folder
+            const link = document.createElement('a');
+            link.href = 'rsrc/FR_CV_Milan MULLER-LIEBRHERR.pdf'; // Path to your CV file
+            link.download = 'Milan_Muller_Lieberherr_CV.pdf'; // Suggested filename for download
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
         }
 
         // --- PROJECT FILTERING & SORTING LOGIC ---
@@ -1340,12 +1380,12 @@ public class DistributedSystem {
     }
 }`,
                 skills: [
-                    { name: "C# (.NET / Unity)", icon: "devicon-csharp-plain", level: "75%", label: "Intermédiaire" },
-                    { name: "Python (Scripts & Tools)", icon: "devicon-python-plain", level: "85%", label: "Avancé" },
-                    { name: "C / C++ (Système)", icon: "devicon-c-plain", level: "90%", label: "Avancé" },
-                    { name: "Web (React / Tailwind)", icon: "devicon-react-original", level: "70%", label: "Intermédiaire" },
-                    { name: "Rust", icon: "devicon-rust-plain", level: "65%", label: "Intermédiaire" },
-                    { name: "Android", icon: "devicon-android-plain", level: "40%", label: "Débutant" },
+                    { name: "C# (.NET / Unity)", icon: "devicon-csharp-plain", level: "75%", label: "Intermédiaire",hours: "+300h" },
+                    { name: "Python (Scripts & Tools)", icon: "devicon-python-plain", level: "85%", label: "Avancé",hours: "+200h" },
+                    { name: "C / C++ (Système)", icon: "devicon-c-plain", level: "90%", label: "Avancé",hours: "+170h" },
+                    { name: "Web (React / Tailwind)", icon: "devicon-react-original", level: "70%", label: "Intermédiaire",hours: "+100h" },
+                    { name: "Rust", icon: "devicon-rust-plain", level: "65%", label: "Intermédiaire",hours: "+170h" },
+                    { name: "Android Studio", icon: "devicon-android-plain", level: "40%", label: "Débutant",hours: "+90h" },
                 ]
             },
             security: {
@@ -1363,11 +1403,11 @@ PORT   STATE SERVICE VERSION
 80/tcp open  http    Apache httpd 2.4.41
 Scanning completed.`,
                 skills: [
-                    { name: "Linux / Kali", icon: "devicon-linux-plain", level: "85%", label: "Avancé" },
-                    { name: "Wireshark / Nmap", icon: "material-symbols-outlined:radar", level: "70%", label: "Intermédiaire" },
-                    { name: "Bash Scripting", icon: "devicon-bash-plain", level: "80%", label: "Avancé" },
-                    { name: "Firebase", icon: "material-symbols-outlined:local_fire_department", level: "45%", label: "Débutant" },
-                    { name: "Cryptographie", icon: "material-symbols-outlined:enhanced_encryption", level: "50%", label: "Scolaire" }
+                    { name: "Linux / Kali", icon: "devicon-linux-plain", level: "85%", label: "Avancé",hours: "+300h" },
+                    { name: "Wireshark / Nmap", icon: "material-symbols-outlined:radar", level: "20%", label: "Débutant",hours: "+30h" },
+                    { name: "Bash Scripting", icon: "devicon-bash-plain", level: "50%", label: "Scolaire",hours: "+100h" },
+                    { name: "Firebase", icon: "material-symbols-outlined:local_fire_department", level: "45%", label: "Débutant",hours: "+60h" },
+                    { name: "Cryptographie", icon: "material-symbols-outlined:enhanced_encryption", level: "50%", label: "Scolaire",hours: "+200h" }
                 ]
             },
             tools: {
@@ -1384,11 +1424,11 @@ $ git commit -m "feat: updated dashboard layout"
 [feature/new-ui 8a2b1c] feat: updated dashboard
 $ git push origin feature/new-ui`,
                 skills: [
-                    { name: "Git / GitHub", icon: "devicon-git-plain", level: "85%", label: "Avancé" },
-                    { name: "Adobe Photoshop", icon: "devicon-photoshop-plain", level: "85%", label: "Avancé" },
-                    { name: "Premiere Pro", icon: "devicon-premierepro-plain", level: "60%", label: "Basique" },
-                    { name: "Jira / Trello", icon: "devicon-jira-plain", level: "65%", label: "Intermédiaire" },
-                    { name: "Blender (Bases)", icon: "devicon-blender-original", level: "40%", label: "Débutant" }
+                    { name: "Git / GitHub", icon: "devicon-git-plain", level: "85%", label: "Avancé",hours: "+180h" },
+                    { name: "Adobe Photoshop", icon: "devicon-photoshop-plain", level: "85%", label: "Avancé",hours: "+300h" },
+                    { name: "Premiere Pro", icon: "devicon-premierepro-plain", level: "60%", label: "Basique",hours: "+150h" },
+                    { name: "Jira / Trello", icon: "devicon-jira-plain", level: "65%", label: "Intermédiaire",hours: "+150h" },
+                    { name: "Blender (Bases)", icon: "devicon-blender-original", level: "40%", label: "Débutant",hours: "+30h" }
                 ]
             }
         };
@@ -1432,7 +1472,16 @@ $ git push origin feature/new-ui`,
                         <div class="space-y-2 group/skill">
                             <div class="flex justify-between items-end">
                                 <span class="font-medium text-white flex items-center gap-2">${iconHTML} ${skill.name}</span>
-                                <span class="text-xs ${data.colorClass} font-mono ${data.bgClass} px-2 py-0.5 rounded border border-${data.colorClass.split('-')[1]}/20">${skill.label}</span>
+                                
+                                <!-- DÉBUT MODIFICATION -->
+                                <div class="flex items-center gap-3">
+                                    <!-- Affichage des heures si elles existent -->
+                                    ${skill.hours ? `<span class="text-[10px] text-gray-500 font-mono bg-white/5 px-1.5 py-0.5 rounded">${skill.hours}</span>` : ''}
+                                    
+                                    <!-- Le badge de niveau (inchangé) -->
+                                    <span class="text-xs ${data.colorClass} font-mono ${data.bgClass} px-2 py-0.5 rounded border border-${data.colorClass.split('-')[1]}/20">${skill.label}</span>
+                                </div>
+                                <!-- FIN MODIFICATION -->
                             </div>
                             <div class="h-2 bg-white/5 rounded-full overflow-hidden">
                                 <div class="h-full bg-gradient-to-r from-${data.colorClass.split('-')[1]} to-white/50 w-[0%] transition-all duration-1000 ease-out relative group-hover/skill:brightness-125" style="width: ${skill.level}">
