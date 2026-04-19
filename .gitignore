@@ -1,0 +1,31 @@
+# Local test outputs
+mobile-check/
+
+# Dependencies and package manager caches
+node_modules/
+.npm/
+.pnpm-store/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Build/deploy outputs, if a build step is added later
+dist/
+build/
+.cache/
+.parcel-cache/

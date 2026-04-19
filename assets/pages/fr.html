@@ -1,0 +1,1166 @@
+<!-- Navigation -->
+    <nav aria-label="Navigation principale" class="fixed top-0 w-full z-50 glass-heavy transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="#" class="font-display font-bold text-2xl tracking-tight hover:text-white transition-colors group">
+                MML<span class="text-primary group-hover:text-accent transition-colors">.</span>
+            </a>
+
+            <!-- Desktop Links -->
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-400">
+                <a href="#about" class="hover:text-primary transition-colors relative group">
+                    À propos
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>
+                </a>
+                <a href="#projects" class="hover:text-primary transition-colors relative group">
+                    Projets
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>
+                </a>
+                <a href="#experience" class="hover:text-primary transition-colors relative group">
+                    Parcours
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>
+                </a>
+                <a href="#skills" class="hover:text-primary transition-colors relative group">
+                    Compétences
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>
+                </a>
+                <a href="#contact" class="px-5 py-2.5 rounded-full bg-white/5 hover:bg-white/10 text-white transition-all border border-white/5 hover:border-primary/30">
+                    Contact
+                </a>
+                <a href="index.html?lang=en" class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-xs font-bold transition-all border border-white/5">
+                <span class="text-base">🇬🇧</span> EN
+                </a>
+                <a href="index.html?lang=en" class="md:hidden text-lg text-gray-300 hover:text-primary py-2 flex items-center gap-2">
+                <span>🇬🇧</span> English Version
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" type="button" aria-label="Ouvrir le menu" aria-controls="mobile-menu" aria-expanded="false" class="md:hidden text-white p-2 rounded-lg hover:bg-white/10 transition-colors">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+            
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden absolute top-20 left-0 w-full bg-surface/95 backdrop-blur-xl border-b border-white/10 p-6 flex flex-col gap-4 shadow-2xl">
+            <a href="#about" class="text-lg text-gray-300 hover:text-primary py-2 border-b border-white/5">À propos</a>
+            <a href="#projects" class="text-lg text-gray-300 hover:text-primary py-2 border-b border-white/5">Projets</a>
+            <a href="#experience" class="text-lg text-gray-300 hover:text-primary py-2 border-b border-white/5">Parcours</a>
+            <a href="#skills" class="text-lg text-gray-300 hover:text-primary py-2 border-b border-white/5">Compétences</a>
+            <a href="#contact" class="text-lg text-primary font-bold py-2">Contactez-moi</a>
+            <a href="index.html?lang=en" class="text-lg text-gray-300 hover:text-primary py-2 flex items-center gap-2">
+                <span>🇬🇧</span> English Version
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen relative flex items-center justify-center pt-20 overflow-hidden">
+        <!-- Background Elements (Animated Blobs) -->
+        <div class="absolute top-20 right-0 w-[500px] h-[500px] bg-primary/20 rounded-full blur-[120px] pointer-events-none animate-blob"></div>
+        <div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-secondary/20 rounded-full blur-[120px] pointer-events-none animate-blob" style="animation-delay: 2s"></div>
+        <div class="absolute top-1/2 left-1/2 w-[300px] h-[300px] bg-accent/10 rounded-full blur-[100px] pointer-events-none animate-blob" style="animation-delay: 4s"></div>
+
+        <div class="max-w-7xl w-full mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center relative z-10">
+            <!-- Text Content -->
+            <div class="space-y-8 order-2 lg:order-1">
+                <div class="space-y-4">
+                    <div class="inline-flex flex-wrap items-center gap-3">
+                        <span class="px-3 py-1 rounded-full bg-green-500/10 border border-green-500/20 text-green-400 text-xs font-semibold uppercase tracking-wider flex items-center gap-2 shadow-lg shadow-green-900/20">
+                            <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                            Dispo : Septembre 2026
+                        </span>
+                        <span class="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-gray-400 text-xs font-semibold uppercase tracking-wider flex items-center gap-2">
+                            <span class="material-symbols-outlined text-[14px]">location_on</span>
+                            Paris / Massy, FR
+                        </span>
+                    </div>
+                    
+                    <h1 class="text-5xl lg:text-7xl font-display font-bold leading-tight">
+                        Milan Müller <br>
+                        <span class="text-gradient">Lieberherr</span>
+                    </h1>
+                    
+                    <p class="text-gray-400 text-lg max-w-lg leading-relaxed">
+                        Étudiant à EPITA, passionné d’informatique et animé par une curiosité insatiable. J’explore, j’apprends et je crée, toujours prêt à relever de nouveaux défis. <br> <br>Je suis à la recherche d'une alternance en <strong class="text-white border-b-2 border-primary/50">cybersécurité pour 3 ans.</strong>                    </p>
+                </div>
+
+                <!-- Hero Icons & Actions -->
+                <div class="flex flex-wrap items-center gap-4 pt-2">
+                    <a rel="noopener noreferrer" aria-label="GitHub" href="https://github.com/Swiiptz" target="_blank" class="w-12 h-12 rounded-full glass hover:bg-white/10 hover:border-primary/50 flex items-center justify-center group transition-all duration-300">
+                        <i class="devicon-github-original text-2xl text-gray-400 group-hover:text-white transition-colors"></i>
+                    </a>
+                    <a rel="noopener noreferrer" aria-label="LinkedIn" href="https://www.linkedin.com/in/milan-m%C3%BCller-lieberherr-40856b274" target="_blank" class="w-12 h-12 rounded-full glass hover:bg-white/10 hover:border-primary/50 flex items-center justify-center group transition-all duration-300">
+                        <i class="devicon-linkedin-plain text-2xl text-gray-400 group-hover:text-white transition-colors"></i>
+                    </a>
+                    <a aria-label="Email" href="mailto:m.mullerlieberherr@gmail.com" class="w-12 h-12 rounded-full glass hover:bg-white/10 hover:border-primary/50 flex items-center justify-center group transition-all duration-300 text-gray-400 hover:text-white">
+                        <span class="material-symbols-outlined text-2xl group-hover:scale-110 transition-transform">mail</span>
+                    </a>
+                    
+                    <button onclick="downloadCV()" class="px-6 py-3 rounded-full bg-primary hover:bg-primaryDark text-white font-medium text-sm flex items-center gap-2 transition-all shadow-lg shadow-primary/20 hover:shadow-primary/40 transform hover:-translate-y-0.5 ml-2">
+                        <span class="material-symbols-outlined text-lg">download</span>
+                        Télécharger mon CV
+                    </button>
+                </div>
+                <p class="mt-4 text-primary text-sm font-mono">m.mullerlieberherr@gmail.com</p>
+
+            </div>
+
+            <!-- Animation / Visual -->
+            <div class="order-1 lg:order-2 flex justify-center lg:justify-end relative">
+                <div class="relative w-[320px] h-[320px] md:w-[450px] md:h-[450px]">
+                    <!-- Rotating Rings -->
+                    <div class="absolute inset-0 border border-white/5 rounded-full animate-spin-slow"></div>
+                    <div class="absolute inset-8 border border-primary/20 rounded-full animate-spin-slow" style="animation-direction: reverse; animation-duration: 15s;"></div>
+                    <div class="absolute inset-16 border border-accent/10 rounded-full animate-spin-slow" style="animation-duration: 20s;"></div>
+
+                    <!-- Floating Main Image -->
+                    <div class="absolute inset-0 flex items-center justify-center animate-float">
+                        <div class="w-3/4 h-3/4 rounded-full overflow-hidden shadow-2xl shadow-primary/20 relative">
+                             <div class="absolute inset-0 bg-gradient-to-tr from-primary/20 to-accent/20 mix-blend-overlay z-10"></div>
+                             <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop" alt="Abstract Tech" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+
+                    <!-- Floating Cards -->
+                    <div class="absolute top-10 -right-4 glass p-4 rounded-xl flex items-center gap-3 animate-float shadow-xl backdrop-blur-md" style="animation-delay: 1s;">
+                        <div class="w-10 h-10 rounded-lg bg-purple-500/20 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-purple-400">computer</span>
+                        </div>
+                        <div class="text-xs">
+                            <div class="font-bold text-white">Programmation</div>
+                            <div class="text-gray-400">C / C# / py</div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-10 -right-4 glass p-4 rounded-xl flex items-center gap-3 animate-float shadow-xl backdrop-blur-md" style="animation-delay: 1.5s;">
+                        <div class="w-10 h-10 rounded-lg bg-red-500/20 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-red-400">person_shield</span>
+                        </div>
+                        <div class="text-xs">
+                            <div class="font-bold text-white">Security</div>
+                            <div class="text-gray-400">Cybersecurity</div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-20 -left-4 glass p-4 rounded-xl flex items-center gap-3 animate-float shadow-xl backdrop-blur-md" style="animation-delay: 2.5s;">
+                        <div class="w-10 h-10 rounded-lg bg-cyan-500/20 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-cyan-400">code</span>
+                        </div>
+                        <div class="text-xs">
+                            <div class="font-bold text-white">Full Stack</div>
+                            <div class="text-gray-400">React / Node</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Down Indicator (Déplacé hors du conteneur grid pour être en bas de l'écran) -->
+        <a href="#about" class="hidden md:flex absolute bottom-8 left-1/2 transform -translate-x-1/2 flex-col items-center gap-2 text-gray-500 hover:text-white transition-colors animate-bounce z-20 p-2 cursor-pointer">
+            <span class="text-[10px] tracking-[0.2em] uppercase font-medium">Découvrir</span>
+            <span class="material-symbols-outlined">keyboard_arrow_down</span>
+        </a>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-24 bg-surface/30 relative">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row gap-4 items-end mb-12">
+                <h2 class="text-4xl font-display font-bold flex items-center gap-3">
+                    <span class="material-symbols-outlined text-primary text-4xl">person</span>
+                    À propos
+                </h2>
+                <div class="h-px bg-white/10 flex-1 mb-2"></div>
+            </div>
+
+            <!-- 4 Strength Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+                <!-- Card 1 -->
+                <div class="glass p-6 rounded-2xl hover:bg-white/5 transition-all duration-300 group hover:-translate-y-1">
+                    <div class="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 mb-4 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined">psychology</span>
+                    </div>
+                    <h3 class="font-bold text-lg text-white mb-2">Curiosité</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">Toujours à l'affût des nouvelles technologies et concepts de design innovants.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="glass p-6 rounded-2xl hover:bg-white/5 transition-all duration-300 group hover:-translate-y-1">
+                    <div class="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 mb-4 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined">group</span>
+                    </div>
+                    <h3 class="font-bold text-lg text-white mb-2">Esprit d'équipe</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">L'échange, la critique constructive et la collaboration sont mes moteurs.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="glass p-6 rounded-2xl hover:bg-white/5 transition-all duration-300 group hover:-translate-y-1">
+                    <div class="w-12 h-12 rounded-xl bg-green-500/10 border border-green-500/20 flex items-center justify-center text-green-400 mb-4 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined">build</span>
+                    </div>
+                    <h3 class="font-bold text-lg text-white mb-2">Polyvalence & Autonomie</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">Du code bas niveau (C) au design d'interface utilisateur, j'aime toucher à tout. Je suis très autonome, me formant très souvent en autodidacte.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="glass p-6 rounded-2xl hover:bg-white/5 transition-all duration-300 group hover:-translate-y-1">
+                    <div class="w-12 h-12 rounded-xl bg-pink-500/10 border border-pink-500/20 flex items-center justify-center text-pink-400 mb-4 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined">extension</span>
+                    </div>
+                    <h3 class="font-bold text-lg text-white mb-2">Créativité</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">Transformer des contraintes techniques strictes en solutions ludiques.</p>
+                </div>
+            </div>
+
+            <!-- Tabbed Content -->
+            <div class="glass rounded-3xl p-1 overflow-hidden shadow-2xl">
+                <!-- Tab Buttons -->
+                <div class="grid grid-cols-3 gap-1 p-1 bg-black/40 rounded-t-3xl border-b border-white/5" role="tablist">
+                    <button type="button" role="tab" aria-selected="true" class="tab-btn active px-4 py-3 text-sm font-medium rounded-xl text-gray-400 hover:text-white transition-all data-[active=true]:bg-surfaceHighlight data-[active=true]:text-white data-[active=true]:shadow-md border border-transparent data-[active=true]:border-white/5" data-active="true" onclick="openTab(event, 'journey')">
+                        Mon Parcours
+                    </button>
+                    <button type="button" role="tab" aria-selected="false" class="tab-btn px-4 py-3 text-sm font-medium rounded-xl text-gray-400 hover:text-white transition-all data-[active=true]:bg-surfaceHighlight data-[active=true]:text-white data-[active=true]:shadow-md border border-transparent data-[active=true]:border-white/5" onclick="openTab(event, 'drives')">
+                        Mes Motivations
+                    </button>
+                    <button type="button" role="tab" aria-selected="false" class="tab-btn px-4 py-3 text-sm font-medium rounded-xl text-gray-400 hover:text-white transition-all data-[active=true]:bg-surfaceHighlight data-[active=true]:text-white data-[active=true]:shadow-md border border-transparent data-[active=true]:border-white/5" onclick="openTab(event, 'beyond')">
+                        Hobbies
+                    </button>
+                </div>
+
+                <!-- Content Area -->
+                <div class="p-8 md:p-12 min-h-[350px] bg-black/20">
+                    <div id="journey" class="tab-content active space-y-6">
+                        <h3 class="text-2xl font-bold text-white flex items-center gap-2">
+                            <span class="text-primary">#</span> L'aventure EPITA
+                        </h3>
+                        <p class="text-gray-300 leading-relaxed text-lg">
+J’ai commencé mon aventure dans l’informatique dès l’école primaire, en bootant des distributions Linux sur les EeePC Asus de la maison, rien de tel qu’un Linux pour expérimenter. Ce fil rouge se poursuit au collège avec mes premiers morceaux de code, d’abord sur Scratch puis en Python. Au lycée, j’explore la partie immergée de l’iceberg grâce à la spécialité NSI, avec la découverte de l'algorithmique, du SQL etc.
+<br><br>Aujourd’hui, <strong>à l’EPITA,</strong> je consolide mes bases en algorithmique avancée, en architecture logicielle, mathématiques, et en programmation, tout en continuant à développer, sur mon temps libre, des prototypes d’applications, d’outils et de temps en temps des petits jeux vidéo. J’aime découvrir de nouvelles technologies et me former en permanence.                        </p>
+                        <!-- Abstract Timeline Image -->
+                        <div class="w-full h-40 rounded-xl overflow-hidden relative group">
+                            <div class="absolute inset-0 bg-primary/20 mix-blend-multiply group-hover:bg-transparent transition-colors duration-500"></div>
+                            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1000&auto=format&fit=crop" alt="Coding Setup" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                        </div>
+                    </div>
+
+                    <div id="drives" class="tab-content space-y-6">
+                        <h3 class="text-2xl font-bold text-white flex items-center gap-2">
+                            <span class="text-secondary">#</span> Ce qui me motive
+                        </h3>
+                        <p class="text-gray-300 leading-relaxed text-lg">
+                 Je suis motivé par l’impact direct de ce que je crée sur l’utilisateur, mais aussi par la découverte constante de nouvelles technologies. Ma curiosité me pousse à explorer, comprendre et expérimenter. Résoudre un bug complexe, optimiser un système ou voir une fonctionnalité que j’ai développée améliorer concrètement l’expérience d’un utilisateur est pour moi une source de grande satisfaction.
+                        </p>
+                        <div class="flex flex-wrap gap-3 mt-6">
+                            <span class="px-4 py-2 rounded-lg bg-surface border border-white/10 text-sm text-gray-300 flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-blue-400"></span>UX / UI</span>
+                            <span class="px-4 py-2 rounded-lg bg-surface border border-white/10 text-sm text-gray-300 flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-purple-400"></span>Architecture Logicielle</span>
+                            <span class="px-4 py-2 rounded-lg bg-surface border border-white/10 text-sm text-gray-300 flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-green-400"></span>Gameplay Loop</span>
+                            <span class="px-4 py-2 rounded-lg bg-surface border border-white/10 text-sm text-gray-300 flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-yellow-400"></span>Prototyping</span>
+                        </div>
+                    </div>
+
+                    <div id="beyond" class="tab-content space-y-6">
+                        <h3 class="text-2xl font-bold text-white flex items-center gap-2">
+                            <span class="text-accent">#</span> Au-delà du code
+                        </h3>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div>
+                                <p class="text-gray-300 leading-relaxed mb-6">
+                                    Quand je ne suis pas devant un écran, je suis souvent derrière un objectif, ou en train d'organiser ma prochaine chronique de jeu de rôle. Ces activités nourrissent ma créativité et m'apprennent la patience, la précision et la perspective.
+                                </p>
+                                <ul class="space-y-4 text-gray-400">
+                                    <li class="flex items-center gap-3 p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-colors">
+                                        <div class="p-2 bg-yellow-500/20 rounded-lg text-yellow-500"><span class="material-symbols-outlined text-sm">linked_camera</span></div>
+                                        <span>Photographie Numérique-Argentique & Drone</span>
+                                    </li>
+                                    <li class="flex items-center gap-3 p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-colors">
+                                        <div class="p-2 bg-green-500/20 rounded-lg text-green-500"><span class="material-symbols-outlined text-sm">sports_kabaddi</span></div>
+                                        <span>Grandeur Nature & Jeu de rôle</span>
+                                    </li>
+                                    <li class="flex items-center gap-3 p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-colors">
+                                        <div class="p-2 bg-blue-500/20 rounded-lg text-blue-500"><span class="material-symbols-outlined text-sm">edit_note</span></div>
+                                        <span>Ecriture</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="grid grid-cols-2 gap-3 h-full">
+                                <!-- Hobbies Images (Unsplash) -->
+                                <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=500&auto=format&fit=crop" alt="Camera" class="rounded-lg object-cover w-full h-full min-h-[150px] hover:opacity-80 transition-opacity">
+                                <img loading="lazy" decoding="async" src="Img/jdr.jpg" alt="JDR" class="rounded-lg object-cover w-full h-full min-h-[150px] hover:opacity-80 transition-opacity">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects" class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+                <div>
+                    <h2 class="text-4xl font-display font-bold mb-2">Projets</h2>
+                    <p class="text-gray-400">Une sélection de mes travaux personnels et académiques.</p>
+                </div>
+                
+                <!-- Filters & Sorting -->
+                <div class="flex flex-wrap gap-4 items-center">
+                    <!-- Category Filter -->
+                    <div class="flex p-1 bg-surface border border-white/10 rounded-lg self-start">
+                        <button type="button" aria-pressed="true" onclick="filterProjects('all', this)" class="project-filter-btn px-4 py-2 text-xs font-medium rounded transition-colors text-white bg-white/10 shadow-sm">Tout</button>
+                        <button type="button" aria-pressed="false" onclick="filterProjects('game-dev', this)" class="project-filter-btn px-4 py-2 text-xs font-medium rounded transition-colors text-gray-400 hover:text-white">Game Dev</button>
+                        <button type="button" aria-pressed="false" onclick="filterProjects('web', this)" class="project-filter-btn px-4 py-2 text-xs font-medium rounded transition-colors text-gray-400 hover:text-white">Web</button>
+                        <button type="button" aria-pressed="false" onclick="filterProjects('tool', this)" class="project-filter-btn px-4 py-2 text-xs font-medium rounded transition-colors text-gray-400 hover:text-white">Outils</button>
+                    </div>
+
+                    <!-- Year Sort Dropdown -->
+                    <div class="relative">
+                        <select onchange="sortProjects(this.value)" class="appearance-none bg-surface border border-white/10 text-gray-300 text-xs font-medium rounded-lg px-4 py-2.5 pr-8 focus:outline-none focus:border-primary/50 hover:border-white/20 transition-colors cursor-pointer">
+                            <option value="newest">Date: Plus récent</option>
+                            <option value="oldest">Date: Plus ancien</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Grid -->
+            <div id="projects-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project: Scraber -->
+                <div class="project-card glass rounded-xl overflow-hidden group hover:border-accent/50 transition-all duration-300 flex flex-col hover:shadow-2xl hover:shadow-accent/10 hover:-translate-y-2" data-category="tool" data-year="2026">
+                    <div class="relative h-56 overflow-hidden">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
+
+                        <img loading="lazy" decoding="async" src="Img/scraber_img.png" alt="Scraber cyber watch app" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+
+                        <div class="absolute top-3 right-3 z-20 bg-black/70 backdrop-blur px-2 py-1 rounded border border-white/10 flex items-center gap-1">
+                            <i class="devicon-flutter-plain text-xs text-accent"></i>
+                            <span class="text-[10px] text-white font-mono uppercase">Mobile Cyber</span>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col bg-gradient-to-b from-transparent to-black/40">
+                        <div class="flex justify-between items-start mb-2 gap-2">
+                            <h3 class="text-xl font-bold text-white group-hover:text-accent transition-colors">Scraber</h3>
+                            <span class="text-[10px] text-gray-400 font-mono border border-white/10 px-2 py-1 rounded bg-white/5 whitespace-nowrap">2026</span>
+                        </div>
+
+                        <p class="text-sm text-gray-400 mb-6 flex-1 leading-relaxed">
+                            Application Flutter de veille cybersécurité : flux d'actualités, CVE, alertes officielles, recherche avancée, favoris locaux et notifications selon le niveau de criticité.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Flutter</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Firebase</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">GitHub Actions</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Node.js</span>
+                        </div>
+                        <div class="flex items-center gap-3 pt-4 border-t border-white/5">
+                            <a href="https://github.com/Swiiptz/scraber-public" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-xs font-bold text-gray-300 hover:text-white transition-colors">
+                                <i class="devicon-github-original"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 1: Intanuit -->
+                <div class="project-card glass rounded-xl overflow-hidden group hover:border-red-500/50 transition-all duration-300 flex flex-col hover:shadow-2xl hover:shadow-red-900/20 hover:-translate-y-2" data-category="web" data-year="2026">
+                    <div class="relative h-56 overflow-hidden">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
+                        
+                        <img loading="lazy" decoding="async" src="Img/intranuit.png" alt="Intranuit" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+
+                        
+                        <div class="absolute top-3 right-3 z-20 bg-black/70 backdrop-blur px-2 py-1 rounded border border-white/10 flex items-center gap-1">
+                            <span class="material-symbols-outlined text-xs text-red-500">account_tree</span>
+                            <span class="text-[10px] text-white font-mono uppercase">Web App</span>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col bg-gradient-to-b from-transparent to-black/40">
+                        <div class="flex justify-between items-start mb-2 gap-2">
+                            <h3 class="text-xl font-bold text-white group-hover:text-red-500 transition-colors">Intranuit</h3>
+                            <span class="text-[10px] text-gray-400 font-mono border border-white/10 px-2 py-1 rounded bg-white/5 whitespace-nowrap">2026</span>
+                        </div>
+                        
+                        <p class="text-sm text-gray-400 mb-6 flex-1 leading-relaxed">
+                            Création d'un ERP pour la gestion des joueurs et de leur actions dans des campagnes de semi-GN associatives Vampire la Masacarade dans le cadre de la fédération de la camarilla française.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">JavaScript</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Firestore</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">JSON</span>
+                        </div>
+                        <div class="flex items-center gap-3 pt-4 border-t border-white/5">
+                            
+                            <a rel="noopener noreferrer" href="https://cercledeslunes.com/intranuit" target="_blank" class="flex items-center gap-2 text-xs font-bold text-red-400 hover:text-red-300 transition-colors ml-auto">
+                                <span class="material-symbols-outlined text-base">open_in_new</span> Voir le site
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2: VTM Tree  -->
+                <div class="project-card glass rounded-xl overflow-hidden group hover:border-red-500/50 transition-all duration-300 flex flex-col hover:shadow-2xl hover:shadow-red-900/20 hover:-translate-y-2" data-category="web" data-year="2025">
+                    <div class="relative h-56 overflow-hidden">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
+                        
+                        <img loading="lazy" decoding="async" src="Img/VTM Tree.png" alt="VTM Tree" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+
+                        
+                        <div class="absolute top-3 right-3 z-20 bg-black/70 backdrop-blur px-2 py-1 rounded border border-white/10 flex items-center gap-1">
+                            <span class="material-symbols-outlined text-xs text-red-500">account_tree</span>
+                            <span class="text-[10px] text-white font-mono uppercase">Web App</span>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col bg-gradient-to-b from-transparent to-black/40">
+                        <div class="flex justify-between items-start mb-2 gap-2">
+                            <h3 class="text-xl font-bold text-white group-hover:text-red-500 transition-colors">VTM Tree</h3>
+                            <span class="text-[10px] text-gray-400 font-mono border border-white/10 px-2 py-1 rounded bg-white/5 whitespace-nowrap">2025</span>
+                        </div>
+                        
+                        <p class="text-sm text-gray-400 mb-6 flex-1 leading-relaxed">
+                            Application de gestion d'arbres généalogiques pour Vampire: The Masquerade. Visualisation par clan, édition de fiches et stockage collaboratif (Cloud) ou local.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">JavaScript</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Firestore</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">JSON</span>
+                        </div>
+                        <div class="flex items-center gap-3 pt-4 border-t border-white/5">
+                            <a rel="noopener noreferrer" href="https://github.com/VTMCoding/vampire-tree-mascarade" target="_blank" class="flex items-center gap-2 text-xs font-bold text-gray-300 hover:text-white transition-colors">
+                                <i class="devicon-github-original"></i> Code
+                            </a>
+                            <a rel="noopener noreferrer" href="https://vtmcoding.github.io/vampire-tree-mascarade/" target="_blank" class="flex items-center gap-2 text-xs font-bold text-red-400 hover:text-red-300 transition-colors ml-auto">
+                                <span class="material-symbols-outlined text-base">open_in_new</span> Voir le site
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Project 2: BarCodeZoneApp (NOUVEAU PROJET) -->
+                <div class="project-card glass rounded-xl overflow-hidden group hover:border-green-500/50 transition-all duration-300 flex flex-col hover:shadow-2xl hover:shadow-green-900/20 hover:-translate-y-2" data-category="tool" data-year="2025">
+                    <div class="relative h-56 overflow-hidden">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
+                        
+                        <img loading="lazy" decoding="async" src="Img/bar-code.png" alt="BarCodeZoneApp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+
+                        
+                        <div class="absolute top-3 right-3 z-20 bg-black/70 backdrop-blur px-2 py-1 rounded border border-white/10 flex items-center gap-1">
+                            <i class="devicon-android-plain text-xs text-green-500"></i>
+                            <span class="text-[10px] text-white font-mono uppercase">Mobile Tool</span>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col bg-gradient-to-b from-transparent to-black/40">
+                        <div class="flex justify-between items-start mb-2 gap-2">
+                            <h3 class="text-xl font-bold text-white group-hover:text-green-500 transition-colors">BarCodeZoneApp</h3>
+                            <span class="text-[10px] text-gray-400 font-mono border border-white/10 px-2 py-1 rounded bg-white/5 whitespace-nowrap">2025</span>
+                        </div>
+                        
+                        <p class="text-sm text-gray-400 mb-6 flex-1 leading-relaxed">
+                            Application Android de gestion d'entrepôt 100% hors-ligne. Génération de codes-barres de zones et produits (EAN-13), gestion de favoris et personnalisation des rayonnages.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Android Studio</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Gestion de Stock</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Offline First</span>
+                        </div>
+                        <div class="flex items-center gap-3 pt-4 border-t border-white/5">
+                            <a rel="noopener noreferrer" href="https://github.com/Swiiptz/BarCodeZoneApp" target="_blank" class="flex items-center gap-2 text-xs font-bold text-gray-300 hover:text-white transition-colors">
+                                <i class="devicon-github-original"></i> Code
+                            </a>
+                            <a href="rsrc/Spécifications BarCodeZoneApp.pdf" download class="flex items-center gap-2 text-xs font-bold text-green-400 hover:text-green-300 transition-colors w-full justify-end">
+                                <span class="material-symbols-outlined text-base">description</span> Télécharger les spécifications
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 1: Find-It (En cours) -->
+                <div class="project-card glass rounded-xl overflow-hidden group hover:border-secondary/50 transition-all duration-300 flex flex-col hover:shadow-2xl hover:shadow-secondary/10 hover:-translate-y-2" data-category="tool" data-year="2025">
+                    <div class="relative h-56 overflow-hidden">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
+                        
+                        <img loading="lazy" decoding="async" src="Img/rust_finder_all_2.png" alt="Find-It File Manager" class="w-full h-full group-hover:scale-110 transition-transform duration-700">
+
+                        
+                        <div class="absolute top-3 right-3 z-20 bg-black/70 backdrop-blur px-2 py-1 rounded border border-white/10 flex items-center gap-1">
+                            <i class="devicon-rust-plain text-xs text-white"></i>
+                            <span class="text-[10px] text-white font-mono uppercase">Rust</span>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col bg-gradient-to-b from-transparent to-black/40">
+                        <div class="flex justify-between items-start mb-2 gap-2">
+                            <h3 class="text-xl font-bold text-white group-hover:text-secondary transition-colors">Find-It</h3>
+                            <span class="text-[10px] text-gray-400 font-mono border border-white/10 px-2 py-1 rounded bg-white/5 whitespace-nowrap">
+                                <span class="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
+                                2025
+                            </span>
+                        </div>
+
+                        <p class="text-sm text-gray-400 mb-6 flex-1 leading-relaxed">Explorateur de fichiers Linux fluide et modulaire. Navigation rapide, arborescence dynamique, prévisualisation (images, PDF) et gestion complète des fichiers.</p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Rust</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Iced</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">UI/UX</span>
+                        </div>
+                        <div class="flex items-center gap-3 pt-4 border-t border-white/5">
+                            <a href="https://github.com/LordJpz18/projets4-rust-finder" class="flex items-center gap-2 text-xs font-bold text-gray-300 hover:text-white transition-colors">
+                                <i class="devicon-github-original"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Beam UP -->
+                <div class="project-card glass rounded-xl overflow-hidden group hover:border-primary/50 transition-all duration-300 flex flex-col hover:shadow-2xl hover:shadow-primary/10 hover:-translate-y-2" data-category="game-dev" data-year="2024">
+                    <div class="relative h-56 overflow-hidden">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
+                        
+                        <img loading="lazy" decoding="async" src="Img/BeamUP.png" alt="Beam Up" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+
+                        
+                        <div class="absolute top-3 right-3 z-20 bg-black/70 backdrop-blur px-2 py-1 rounded border border-white/10 flex items-center gap-1">
+                            <i class="devicon-unity-original text-xs"></i>
+                            <span class="text-[10px] text-white font-mono uppercase">Unity</span>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col bg-gradient-to-b from-transparent to-black/40">
+                        <div class="flex justify-between items-start mb-2 gap-2">
+                            <h3 class="text-xl font-bold text-white group-hover:text-primary transition-colors">Beam UP</h3>
+                            <span class="text-[10px] text-gray-400 font-mono border border-white/10 px-2 py-1 rounded bg-white/5 whitespace-nowrap">2024</span>
+                        </div>
+                        
+                        <p class="text-sm text-gray-400 mb-6 flex-1 leading-relaxed">
+                            Action-Aventure coopératif en LAN. Progressez dans des niveaux, affrontez des boss et personnalisez votre style de jeu via un arbre de compétences et de l'équipement évolutif.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Multiplayer LAN</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Unity 2D</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">C#</span>
+                        </div>
+                        <div class="flex items-center gap-3 pt-4 border-t border-white/5">
+                            <a rel="noopener noreferrer" href="https://swiiptz.itch.io/beam-up" target="_blank" class="flex items-center gap-2 text-xs font-bold text-primary hover:text-primaryDark transition-colors w-full justify-center">
+                                <span class="material-symbols-outlined text-base">sports_esports</span> Jouer sur Itch.io
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Ok. Jumper (2024) -->
+                <div class="project-card glass rounded-xl overflow-hidden group hover:border-primary/50 transition-all duration-300 flex flex-col hover:shadow-2xl hover:shadow-primary/10 hover:-translate-y-2" data-category="game-dev" data-year="2022">
+                    <div class="relative h-56 overflow-hidden">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
+                        
+                        <img loading="lazy" decoding="async" src="Img/Ok Jumper.png" alt="Ok. Jumper" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+
+                        
+                        <div class="absolute top-3 right-3 z-20 bg-black/70 backdrop-blur px-2 py-1 rounded border border-white/10 flex items-center gap-1">
+                            <i class="devicon-unity-original text-xs"></i>
+                            <span class="text-[10px] text-white font-mono uppercase">Unity</span>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col bg-gradient-to-b from-transparent to-black/40">
+                        <div class="flex justify-between items-start mb-2 gap-2">
+                            <h3 class="text-xl font-bold text-white group-hover:text-primary transition-colors">Ok. Jumper</h3>
+                            <span class="text-[10px] text-gray-400 font-mono border border-white/10 px-2 py-1 rounded bg-white/5 whitespace-nowrap">2022</span>
+                        </div>
+                        
+                        <p class="text-sm text-gray-400 mb-6 flex-1 leading-relaxed">
+                            Jeu de plateforme 3D où vous incarnez un petit chat. Domptez la gravité, franchissez les obstacles pour l'étoile bleue et explorez un hub paisible entre montagnes et océan.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Unity 3D</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">C#</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Physics</span>
+                        </div>
+                        <div class="flex items-center gap-3 pt-4 border-t border-white/5">
+                            <a rel="noopener noreferrer" href="https://swiiptz.itch.io/ok-jumper" target="_blank" class="flex items-center gap-2 text-xs font-bold text-primary hover:text-primaryDark transition-colors w-full justify-center">
+                                <span class="material-symbols-outlined text-base">sports_esports</span> Jouer sur Itch.io
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Data Viz (2023) -->
+                <!-- <div class="project-card glass rounded-xl overflow-hidden group hover:border-accent/50 transition-all duration-300 flex flex-col hover:shadow-2xl hover:shadow-accent/10 hover:-translate-y-2"
+                    data-category="web" data-year="2023">
+                    <div class="relative h-56 overflow-hidden">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
+                        <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop"
+                            alt="Data Viz Tool"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div
+                            class="absolute top-3 right-3 z-20 bg-black/70 backdrop-blur px-2 py-1 rounded border border-white/10 flex items-center gap-1">
+                            <i class="devicon-react-original text-xs text-accent"></i>
+                            <span class="text-[10px] text-white font-mono uppercase">Web</span>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col bg-gradient-to-b from-transparent to-black/40">
+                        <div class="flex justify-between items-start mb-2 gap-2">
+                            <h3 class="text-xl font-bold text-white group-hover:text-accent transition-colors">Data Viz Tool</h3>
+                            <span
+                                class="text-[10px] text-gray-400 font-mono border border-white/10 px-2 py-1 rounded bg-white/5 whitespace-nowrap">2023</span>
+                        </div>
+                
+                        <p class="text-sm text-gray-400 mb-6 flex-1 leading-relaxed">Outil de visualisation de données interactif pour
+                            analyser des logs de serveurs de jeux en temps réel. Optimisé pour les grands sets de données.</p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">React</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">D3.js</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Tailwind</span>
+                        </div>
+                        <div class="flex items-center gap-3 pt-4 border-t border-white/5">
+                            <a href="#"
+                                class="flex items-center gap-2 text-xs font-bold text-gray-300 hover:text-white transition-colors">
+                                <i class="devicon-github-original"></i> Code
+                            </a>
+                            <a href="#"
+                                class="flex items-center gap-2 text-xs font-bold text-accent hover:text-white transition-colors ml-auto">
+                                <span class="material-symbols-outlined text-base">open_in_new</span> Voir le site
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+                 <!-- Project 4: Sur les Traces du Dragon (NOUVEAU PROJET - JEU DE PLATEAU) -->
+                <div class="project-card glass rounded-xl overflow-hidden group hover:border-orange-500/50 transition-all duration-300 flex flex-col hover:shadow-2xl hover:shadow-orange-900/20 hover:-translate-y-2" data-category="game-dev" data-year="2016">
+                    <div class="relative h-56 overflow-hidden">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
+                        
+                        <img loading="lazy" decoding="async" src="Img/sur les traces du dragon.png" alt="STD" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        
+                        <div class="absolute top-3 right-3 z-20 bg-black/70 backdrop-blur px-2 py-1 rounded border border-white/10 flex items-center gap-1">
+                            <span class="material-symbols-outlined text-xs text-orange-500">casino</span>
+                            <span class="text-[10px] text-white font-mono uppercase">Board Game</span>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col bg-gradient-to-b from-transparent to-black/40">
+                        <div class="flex justify-between items-start mb-2 gap-2">
+                            <h3 class="text-xl font-bold text-white group-hover:text-orange-500 transition-colors">Sur les Traces du Dragon</h3>
+                            <span class="text-[10px] text-yellow-400 font-mono border border-yellow-500/30 px-2 py-1 rounded bg-yellow-500/10 whitespace-nowrap flex items-center gap-1.5">
+                                <span class="w-1.5 h-1.5 rounded-full bg-yellow-500 animate-pulse"></span>
+                                2016 - En cours
+                            </span>
+                        </div>
+                        
+                        <p class="text-sm text-gray-400 mb-6 flex-1 leading-relaxed">
+                            Mélange entre JDR et jeu de plateau coopératif. Partez à l'aventure, affrontez donjons et monstres, et équipez-vous pour vaincre le terrible dragon d'émeraude !
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Game Design</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Coopératif</span>
+                            <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/5 text-gray-300">Tabletop</span>
+                        </div>
+                        <div class="flex items-center gap-3 pt-4 border-t border-white/5 text-xs text-gray-500 italic justify-center">
+                            Projet physique en développement
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            
+
+            <div class="mt-16 text-center">
+                <a rel="noopener noreferrer" href="https://github.com/Swiiptz" target="_blank" class="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white/10 hover:bg-white/5 transition-colors text-sm font-medium hover:border-primary/50 group">
+                    Voir plus sur GitHub
+                    <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education (Timeline) -->
+    <section id="experience" class="py-24 bg-surface/30">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-display font-bold mb-16 text-center">Expérience & Formation</h2>
+            
+            <div class="relative">
+                <!-- Vertical Line -->
+                <div class="absolute left-6 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-primary/0 via-primary/30 to-primary/0 md:-ml-[0.5px]"></div>
+                <!-- 1. EPITA (En tête de liste - GAUCHE) -->
+                <div class="relative flex flex-col md:flex-row gap-8 items-center mb-16 group">
+                    <div class="md:w-1/2 md:text-right md:pr-12 order-2 md:order-1 w-full pl-20 md:pl-0">
+                        <div class="glass p-6 rounded-2xl relative border border-white/5 hover:border-secondary/50 transition-all duration-300 hover:bg-surfaceHighlight group-hover:-translate-y-1 shadow-lg">
+                            <div class="flex flex-col md:items-end mb-2 gap-1">
+                                <span class="px-3 py-1 rounded-full bg-secondary/10 border border-secondary/20 text-secondary text-[10px] font-bold uppercase tracking-wider w-fit">Diplôme en cours</span>
+                                <h3 class="font-bold text-xl text-white group-hover:text-secondary transition-colors">Cycle Ingénieur Informatique</h3>
+                            </div>
+                            
+                            <div class="flex flex-col md:items-end mb-4 text-sm">
+                                <span class="text-secondary font-bold text-base mb-1">EPITA</span>
+                                <div class="flex flex-wrap gap-3 text-gray-400 justify-start md:justify-end items-center">
+                                    <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">location_on</span> Le Kremlin-Bicêtre</span>
+                                    <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">calendar_month</span> 2023 - 2029</span>
+                                </div>
+                            </div>
+
+                            <p class="text-sm text-gray-300 mb-4 leading-relaxed md:text-right text-left">
+                                Formation d'excellence en ingénierie informatique. Cursus intensif axé sur les fondamentaux de l'informatique.
+                            </p>
+
+                            <ul class="text-sm text-gray-400 space-y-2 mb-6 md:text-right text-left">
+                                <li class="flex items-start md:flex-row-reverse gap-2">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-secondary mt-1.5 flex-shrink-0"></span>
+                                    <span>Algorithmique avancée, structures de données et mathématiques</span>
+                                </li>
+                                <li class="flex items-start md:flex-row-reverse gap-2">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-secondary mt-1.5 flex-shrink-0"></span>
+                                    <span>Architecture des ordinateurs et programmation</span>
+                                </li>
+                            </ul>
+
+                            <div class="flex flex-wrap gap-2 md:justify-end">
+                                <span class="px-2 py-1 rounded bg-white/5 border border-white/5 text-xs text-gray-300">C#</span>
+                                <span class="px-2 py-1 rounded bg-white/5 border border-white/5 text-xs text-gray-300">C</span>
+                                <span class="px-2 py-1 rounded bg-white/5 border border-white/5 text-xs text-gray-300">Python</span>
+                                <span class="px-2 py-1 rounded bg-white/5 border border-white/5 text-xs text-gray-300">Rust</span>
+                                <span class="px-2 py-1 rounded bg-white/5 border border-white/5 text-xs text-gray-300">Maths</span>
+                                <span class="px-2 py-1 rounded bg-white/5 border border-white/5 text-xs text-gray-300">Algo</span>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="absolute left-6 md:left-1/2 -ml-[20px] w-10 h-10 rounded-full bg-surface border-4 border-gray-600 border-secondary transition-colors shadow-[0_0_15px_rgba(247,104,217,0.5)] z-10 mt-6 md:mt-0 flex items-center justify-center group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-white text-sm">school</span>
+                    </div>
+                    
+                    <div class="md:w-1/2 md:pl-12 order-3 md:order-2 hidden md:block"></div>
+                </div>
+                <!-- 2. Cercles des Lunes (DROITE) -->
+                <div class="relative flex flex-col md:flex-row gap-8 items-center mb-16 group">
+                    <div class="md:w-1/2 md:pr-12 order-2 md:order-1 hidden md:block"></div>
+                    
+                    <div class="absolute left-6 md:left-1/2 -ml-[20px] w-10 h-10 rounded-full bg-surface border-4 border-primary shadow-[0_0_15px_rgba(99,102,241,0.5)] z-10 mt-6 md:mt-0 flex items-center justify-center group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-white text-sm">groups</span>
+                    </div>
+
+                    <div class="md:w-1/2 md:pl-12 order-3 md:order-2 w-full pl-20 md:pl-12">
+                        <div class="glass p-6 rounded-2xl relative border border-white/5 hover:border-primary/50 transition-all duration-300 hover:bg-surfaceHighlight group-hover:-translate-y-1 shadow-lg">
+                            <div class="flex flex-col items-start mb-2 gap-1">
+                                <span class="px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-[10px] font-bold uppercase tracking-wider w-fit">En cours</span>
+                                <h3 class="font-bold text-xl text-white group-hover:text-primary transition-colors">Responsable Pôle Scénario & Vice-présidence</h3>
+                            </div>
+                            
+                            <div class="flex flex-col items-start mb-4 text-sm">
+                                <span class="text-primary font-bold text-base mb-1">Association Cercles des Lunes</span>
+                                <div class="flex flex-wrap gap-3 text-gray-400 items-center">
+                                    <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">location_on</span> Vaux-le-penil (77), FR</span>
+                                    <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">calendar_month</span> Sep 2023 - Présent</span>
+                                </div>
+                            </div>
+
+                            <p class="text-sm text-gray-300 mb-4 leading-relaxed">
+                                Membre d'une équipe de créatifs pour l'organisation de jeux de rôle grandeur nature (GN) mensuellement et parties execeptionnelles rassemblant plus de 100 participants.
+                            </p>
+
+                            <ul class="text-sm text-gray-400 space-y-2 mb-6">
+                                <li class="flex items-start gap-2">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0"></span>
+                                    <span>Coordination d'équipe et gestion de projet événementiel (accueil, déroulement)</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0"></span>
+                                    <span>Écriture de scénarios interactifs et design narratif</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0"></span>
+                                    <span>Coordination nationale et développement de campagnes de jeu au sein de <strong>la Fédération française de la Camarilla</strong></span>
+                                </li>
+                            </ul>
+
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-2 py-1 rounded bg-white/5 border border-white/5 text-xs text-gray-300">Management</span>
+                                <span class="px-2 py-1 rounded bg-white/5 border border-white/5 text-xs text-gray-300">Narrative Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3. Antre aux Piques (GAUCHE) -->
+                <div class="relative flex flex-col md:flex-row gap-8 items-center mb-16 group">
+                    <div class="md:w-1/2 md:text-right md:pr-12 order-2 md:order-1 w-full pl-20 md:pl-0">
+                        <div class="glass p-6 rounded-2xl relative border border-white/5 hover:border-rose-500/50 transition-all duration-300 hover:bg-surfaceHighlight group-hover:-translate-y-1 shadow-lg">
+                            <div class="flex flex-col md:items-end mb-2 gap-1">
+                                <span class="px-3 py-1 rounded-full bg-rose-500/10 border border-rose-500/20 text-rose-400 text-[10px] font-bold uppercase tracking-wider w-fit">En cours</span>
+                                <h3 class="font-bold text-xl text-white group-hover:text-rose-400 transition-colors">Présidence</h3>
+                            </div>
+                            
+                            <div class="flex flex-col md:items-end mb-4 text-sm">
+                                <span class="text-rose-400 font-bold text-base mb-1">Association Antre aux Piques</span>
+                                <div class="flex flex-wrap gap-3 text-gray-400 justify-start md:justify-end items-center">
+                                    <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">location_on</span> Paris</span>
+                                    <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">calendar_month</span> Nov 2025 - Présent</span>
+                                </div>
+                            </div>
+
+                            <p class="text-sm text-gray-300 mb-4 leading-relaxed md:text-right text-left">
+                                Association de semi-GN adhérente à la fédération de la Camarilla française.
+                            </p>
+
+                            <ul class="text-sm text-gray-400 space-y-2 mb-6 md:text-right text-left">
+                                <li class="flex items-start md:flex-row-reverse gap-2">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-rose-500 mt-1.5 flex-shrink-0"></span>
+                                    <span>Gestion administrative et humaine d'une association de 30 membres</span>
+                                </li>
+                                <li class="flex items-start md:flex-row-reverse gap-2">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-rose-500 mt-1.5 flex-shrink-0"></span>
+                                    <span>Organisation de réunions mensuelles pour parties de semi-GN</span>
+                                </li>
+                            </ul>
+
+                            <div class="flex flex-wrap gap-2 md:justify-end">
+                                <span class="px-2 py-1 rounded bg-white/5 border border-white/5 text-xs text-gray-300">Management</span>
+                                <span class="px-2 py-1 rounded bg-white/5 border border-white/5 text-xs text-gray-300">Associatif</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="absolute left-6 md:left-1/2 -ml-[20px] w-10 h-10 rounded-full bg-surface border-4 border-rose-500 shadow-[0_0_15px_rgba(244,63,94,0.5)] z-10 mt-6 md:mt-0 flex items-center justify-center group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-white text-sm">group</span>
+                    </div>
+                    
+                    <div class="md:w-1/2 md:pl-12 order-3 md:order-2 hidden md:block"></div>
+                </div>
+
+                <!-- 4. QA Tester (DROITE) -->
+                <div class="relative flex flex-col md:flex-row gap-8 items-center mb-16 group">
+                    <div class="md:w-1/2 md:pr-12 order-2 md:order-1 hidden md:block"></div>
+                    
+                    <div class="absolute left-6 md:left-1/2 -ml-[20px] w-10 h-10 rounded-full bg-surface border-4 border-gray-600 group-hover:border-green-400 transition-colors shadow-lg z-10 mt-6 md:mt-0 flex items-center justify-center group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-white text-sm">bug_report</span>
+                    </div>
+
+                    <div class="md:w-1/2 md:pl-12 order-3 md:order-2 w-full pl-20 md:pl-12">
+                        <div class="glass p-6 rounded-2xl relative border border-white/5 hover:border-green-500/50 transition-all duration-300 hover:bg-surfaceHighlight group-hover:-translate-y-1 shadow-lg">
+                            <div class="flex flex-col items-start mb-2 gap-1">
+                                <span class="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-gray-400 text-[10px] font-bold uppercase tracking-wider w-fit">Terminé</span>
+                                <h3 class="font-bold text-xl text-white group-hover:text-green-400 transition-colors">QA Tester & Consultant</h3>
+                            </div>
+                            
+                            <div class="flex flex-col items-start mb-4 text-sm">
+                                <span class="text-green-400 font-bold text-base mb-1">Freelance / Equinoxe Studio</span>
+                                <div class="flex flex-wrap gap-3 text-gray-400 items-center">
+                                    <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">location_on</span> Paris 6e</span>
+                                    <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">calendar_month</span> 2022 - 2024</span>
+                                </div>
+                            </div>
+
+                            <p class="text-sm text-gray-300 mb-4 leading-relaxed">
+                                Mission freelance de longue durée pour le jeu de cartes à collectionner (TCG) <strong>Altered</strong>.
+                            </p>
+
+                            <ul class="text-sm text-gray-400 space-y-2 mb-6">
+                                <li class="flex items-start gap-2">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-green-400 mt-1.5 flex-shrink-0"></span>
+                                    <span>+400 heures de tests fonctionnels et d'équilibrage (version Alpha, Beta, Release)</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-green-400 mt-1.5 flex-shrink-0"></span>
+                                    <span>Rédaction de rapports de bugs détaillés (sur un équivalent Jira)</span>
+                                </li>
+                            </ul>
+
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-2 py-1 rounded bg-white/5 border border-white/5 text-xs text-gray-300">QA</span>
+                                <span class="px-2 py-1 rounded bg-white/5 border border-white/5 text-xs text-gray-300">User Feedback</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!-- 5. Amplitude Studios (GAUCHE) -->
+                <div class="relative flex flex-col md:flex-row gap-8 items-center group">
+                    <div class="md:w-1/2 md:text-right md:pr-12 order-2 md:order-1 w-full pl-20 md:pl-0">
+                        <div class="glass p-6 rounded-2xl relative border border-white/5 hover:border-accent/50 transition-all duration-300 hover:bg-surfaceHighlight group-hover:-translate-y-1 shadow-lg">
+                            <div class="flex flex-col md:items-end mb-2 gap-1">
+                                <span class="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-gray-400 text-[10px] font-bold uppercase tracking-wider w-fit">Terminé</span>
+                                <h3 class="font-bold text-xl text-white group-hover:text-accent transition-colors">Stage Découverte</h3>
+                            </div>
+                            
+                            <div class="flex flex-col md:items-end mb-4 text-sm">
+                                <span class="text-accent font-bold text-base mb-1">Amplitude Studios</span>
+                                <div class="flex flex-wrap gap-3 text-gray-400 justify-start md:justify-end items-center">
+                                    <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">location_on</span> Paris 12e</span>
+                                    <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">calendar_month</span> Juin 2021 (6 jours)</span>
+                                </div>
+                            </div>
+
+                            <p class="text-sm text-gray-300 mb-4 leading-relaxed md:text-right text-left">
+                                Immersion au sein d'un studio de jeux vidéo majeur (créateurs d'Endless Space, Humankind).
+                            </p>
+
+                            <ul class="text-sm text-gray-400 space-y-2 mb-6 md:text-right text-left">
+                                <li class="flex items-start md:flex-row-reverse gap-2">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-accent mt-1.5 flex-shrink-0"></span>
+                                    <span>Découverte des différents métiers (Game Design, Art, Dev)</span>
+                                </li>
+                                <li class="flex items-start md:flex-row-reverse gap-2">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-accent mt-1.5 flex-shrink-0"></span>
+                                    <span>Observation des outils de production et stratégies d'entreprise</span>
+                                </li>
+                            </ul>
+
+                            <div class="flex flex-wrap gap-2 md:justify-end">
+                                <span class="px-2 py-1 rounded bg-white/5 border border-white/5 text-xs text-gray-300">Observation</span>
+                                <span class="px-2 py-1 rounded bg-white/5 border border-white/5 text-xs text-gray-300">Industrie JV</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="absolute left-6 md:left-1/2 -ml-[20px] w-10 h-10 rounded-full bg-surface border-4 border-gray-600 group-hover:border-accent transition-colors shadow-lg z-10 mt-6 md:mt-0 flex items-center justify-center group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-white text-sm">videogame_asset</span>
+                    </div>
+                    
+                    <div class="md:w-1/2 md:pl-12 order-3 md:order-2 hidden md:block"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section (Interactive) -->
+    <section class="py-24 relative overflow-hidden" id="skills">
+        <!-- Background Glow -->
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <!-- Section Header -->
+            <div class="text-center mb-16 space-y-4">
+                <h2 class="text-4xl font-display font-bold text-white">Compétences Techniques</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    De l'architecture logicielle bas niveau à la création artistique, mon profil hybride me permet de faire le pont entre la technique et le design.
+                </p>
+            </div>
+
+            <!-- Category Tabs -->
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <button type="button" aria-pressed="true" onclick="switchSkillTab('dev', this)" class="skill-tab active px-6 py-3 rounded-xl font-medium text-sm flex items-center gap-2 transition-all border border-primary/50 bg-primary/10 text-white shadow-[0_0_15px_rgba(99,102,241,0.3)]">
+                    <span class="material-symbols-outlined text-primary">terminal</span>
+                    Développement
+                </button>
+                <button type="button" aria-pressed="false" onclick="switchSkillTab('security', this)" class="skill-tab px-6 py-3 rounded-xl font-medium text-sm flex items-center gap-2 transition-all border border-white/5 bg-surface hover:bg-white/5 text-gray-400 hover:text-white">
+                    <span class="material-symbols-outlined text-secondary">security</span>
+                    Outils Sécurité
+                </button>
+                <button type="button" aria-pressed="false" onclick="switchSkillTab('tools', this)" class="skill-tab px-6 py-3 rounded-xl font-medium text-sm flex items-center gap-2 transition-all border border-white/5 bg-surface hover:bg-white/5 text-gray-400 hover:text-white">
+                    <span class="material-symbols-outlined text-accent">palette</span>
+                    Outils Créatifs
+                </button>
+            </div>
+
+            <!-- Main Content Grid -->
+            <div class="grid lg:grid-cols-12 gap-8 items-start">
+                
+                <!-- Left Column: Dynamic Skills Card (2/3 width) -->
+                <div class="lg:col-span-8">
+                    <div class="glass p-8 rounded-3xl min-h-[450px] border border-white/10 relative overflow-hidden group">
+                        <!-- Header of the Card -->
+                        <div class="flex items-start justify-between mb-8">
+                            <div class="flex items-center gap-4">
+                                <div id="skill-icon-container" class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary border border-primary/20 transition-colors duration-300">
+                                    <span id="skill-category-icon" class="material-symbols-outlined text-2xl">terminal</span>
+                                </div>
+                                <div>
+                                    <h3 id="skill-category-title" class="text-2xl font-bold text-white">Programmation & Logiciel</h3>
+                                    <p id="skill-category-desc" class="text-sm text-gray-400">Architecture robuste et code performant</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <!-- Skills List Container -->
+                            <div id="skills-list" class="space-y-6">
+                                <!-- Content populated by JS on load -->
+                            </div>
+
+                            <!-- Visual Decoration / Code Snippet Area -->
+                            <div class="hidden md:flex flex-col justify-center bg-black/40 rounded-xl p-4 border border-white/5 font-mono text-xs text-gray-400 relative overflow-hidden group/code">
+                                <div class="flex gap-1.5 mb-3">
+                                    <div class="w-2.5 h-2.5 rounded-full bg-red-500/20"></div>
+                                    <div class="w-2.5 h-2.5 rounded-full bg-yellow-500/20"></div>
+                                    <div class="w-2.5 h-2.5 rounded-full bg-green-500/20"></div>
+                                </div>
+                                <div id="code-snippet" class="relative z-10 whitespace-pre-wrap">
+                                    <!-- Snippet text here -->
+                                </div>
+                                <div class="absolute bottom-0 right-0 w-32 h-32 bg-gradient-to-tl from-primary/10 to-transparent rounded-full blur-2xl pointer-events-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Static Cards (1/3 width) -->
+                <div class="lg:col-span-4 space-y-8">
+                    
+                    <!-- Soft Skills Card -->
+                    <div class="glass p-8 rounded-3xl border border-white/10 hover:border-white/20 transition-colors">
+                        <h3 class="text-lg font-bold text-white mb-6 flex items-center gap-2">
+                            <span class="material-symbols-outlined text-yellow-400">psychology</span>
+                            Soft Skills
+                        </h3>
+                        <div class="grid grid-cols-1 gap-4">
+                            <div class="flex items-center gap-3 text-gray-300">
+                                <span class="material-symbols-outlined text-green-400 text-sm">check_circle</span>
+                                <span class="text-sm">Résolution de problèmes</span>
+                            </div>
+                            <div class="flex items-center gap-3 text-gray-300">
+                                <span class="material-symbols-outlined text-green-400 text-sm">check_circle</span>
+                                <span class="text-sm">Leadership & Gestion</span>
+                            </div>
+                            <div class="flex items-center gap-3 text-gray-300">
+                                <span class="material-symbols-outlined text-green-400 text-sm">check_circle</span>
+                                <span class="text-sm">Communication</span>
+                            </div>
+                            <div class="flex items-center gap-3 text-gray-300">
+                                <span class="material-symbols-outlined text-green-400 text-sm">check_circle</span>
+                                <span class="text-sm">Adaptabilité & Autonomie</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications Card -->
+                    <div class="glass p-8 rounded-3xl border border-white/10 hover:border-white/20 transition-colors">
+                        <h3 class="text-lg font-bold text-white mb-6 flex items-center gap-2">
+                            <span class="material-symbols-outlined text-orange-400">verified</span>
+                            Certifications
+                        </h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between group">
+                                <div class="flex items-center gap-3">
+                                    <div class="p-2 bg-white/5 rounded-lg text-gray-300 group-hover:text-white transition-colors">
+                                        <span class="material-symbols-outlined text-sm">school</span>
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <span class="text-sm font-medium text-white">SecNumAcadémie</span>
+                                        <span class="text-[10px] text-gray-500">ANSSI</span>
+                                    </div>
+                                </div>
+                                <span class="px-2 py-1 bg-green-500/10 border border-green-500/20 text-green-400 text-[10px] font-bold rounded uppercase">Validé</span>
+                            </div>
+                            <div class="flex items-center justify-between group">
+                                <div class="flex items-center gap-3">
+                                    <div class="p-2 bg-white/5 rounded-lg text-gray-300 group-hover:text-white transition-colors">
+                                        <span class="material-symbols-outlined text-sm">language</span>
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <span class="text-sm font-medium text-white">TOEIC (785)</span>
+                                        <span class="text-[10px] text-gray-500">EPITA</span>
+                                    </div>
+                                </div>
+                                <span class="px-2 py-1 bg-green-500/10 border border-green-500/20 text-green-400 text-[10px] font-bold rounded uppercase">Validé</span>
+                            </div>
+                            <div class="flex items-center justify-between group">
+                                <div class="flex items-center gap-3">
+                                    <div class="p-2 bg-white/5 rounded-lg text-gray-300 group-hover:text-white transition-colors">
+                                        <span class="material-symbols-outlined text-sm">cloud</span>
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <span class="text-sm font-medium text-white">Azure Cloud Skills</span>
+                                        <span class="text-[10px] text-gray-500">Microsoft</span>
+                                    </div>
+                                </div>
+                                <span class="px-2 py-1 bg-yellow-500/10 border border-yellow-500/20 text-yellow-400 text-[10px] font-bold rounded uppercase flex items-center gap-1">
+                                    <span class="w-1 h-1 rounded-full bg-yellow-400 animate-pulse"></span> En cours
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Languages Card -->
+                    <div class="glass p-8 rounded-3xl border border-white/10 hover:border-white/20 transition-colors">
+                        <h3 class="text-lg font-bold text-white mb-6 flex items-center gap-2">
+                            <span class="material-symbols-outlined text-blue-400">language</span>
+                            Langues
+                        </h3>
+                        <div class="space-y-5">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <span class="text-xl">🇫🇷</span>
+                                    <div class="flex flex-col">
+                                        <span class="text-sm font-medium text-white">Français</span>
+                                        <span class="text-[10px] text-gray-500 uppercase tracking-wider">Langue Maternelle</span>
+                                    </div>
+                                </div>
+                                <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-xs text-gray-300">Natif</span>
+                            </div>
+
+                            <div class="w-full h-px bg-white/5"></div>
+
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <span class="text-xl">🇪🇳</span>
+                                    <div class="flex flex-col">
+                                        <span class="text-sm font-medium text-white">Anglais</span>
+                                        <span class="text-[10px] text-gray-500 uppercase tracking-wider">Professionnel</span>
+                                    </div>
+                                </div>
+                                <span class="px-2 py-1 bg-green-500/10 border border-green-500/20 rounded text-xs text-green-400">B2</span>
+                            </div>
+
+                            <div class="w-full h-px bg-white/5"></div>
+
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <span class="text-xl">🇩🇪</span>
+                                    <div class="flex flex-col">
+                                        <span class="text-sm font-medium text-white">Allemand</span>
+                                        <span class="text-[10px] text-gray-500 uppercase tracking-wider">Intermédiaire</span>
+                                    </div>
+                                </div>
+                                <span class="px-2 py-1 bg-yellow-500/10 border border-yellow-500/20 rounded text-xs text-yellow-400">B1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Let's Connect / What I'm Looking For -->
+    <section id="contact" class="py-24 bg-gradient-to-t from-black to-surface/30 border-t border-white/5 relative overflow-hidden">
+        <!-- Decoration Background -->
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wNSkiLz48L3N2Zz4=')] opacity-20"></div>
+
+        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+            <!-- CTA -->
+            <div class="mb-20">
+                <span class="text-primary font-mono text-sm tracking-wider mb-4 block animate-pulse">UNE IDÉE ? UN PROJET ?</span>
+                <h2 class="text-5xl md:text-6xl font-display font-bold mb-6 text-white">Let's Connect</h2>
+                <p class="text-gray-400 text-lg mb-10 max-w-xl mx-auto">
+                    Mon mail est toujours ouvert pour discuter d'opportunités ou simplement pour se dire bonjour.
+                </p>
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a href="mailto:m.mullerlieberherr@gmail.com" class="px-8 py-4 bg-primary hover:bg-primaryDark text-white rounded-full font-bold text-lg transition-all transform hover:scale-105 shadow-lg shadow-primary/25 flex items-center gap-3">
+                        <span class="material-symbols-outlined">mail</span>
+                        Envoyer un message
+                    </a>
+                    <a rel="noopener noreferrer" href="https://www.linkedin.com/in/milan-m%C3%BCller-lieberherr-40856b274/" target="_blank" class="px-8 py-4 glass hover:bg-white/10 text-white rounded-full font-bold text-lg transition-all flex items-center gap-3">
+                        <i class="devicon-linkedin-plain"></i>
+                        LinkedIn
+                    </a>
+                </div>
+                <!-- Email en clair pour la visibilité -->
+                <p class="mt-4 text-primary text-sm font-mono">m.mullerlieberherr@gmail.com</p>
+            </div>
+
+            <!-- What I am looking for -->
+            <div class="glass p-8 md:p-10 rounded-3xl text-left border-l-4 border-l-primary relative overflow-hidden group hover:bg-white/5 transition-colors">
+                <div class="absolute -right-10 -top-10 w-40 h-40 bg-primary/10 rounded-full blur-[50px] group-hover:bg-primary/20 transition-colors"></div>
+                
+                <h3 class="text-2xl font-bold text-white mb-4 relative z-10">Ce que je recherche</h3>
+                <p class="text-gray-300 leading-relaxed relative z-10 text-lg">
+                    Je suis activement à la recherche d'une <strong>alternance</strong> en <strong class="text-white border-b-2 border-primary/50">cybersécurité pour 3 ans</strong>. 
+                    <br><br>
+                    Je souhaite rejoindre une équipe dynamique où je pourrais mettre à profit mes compétences techniques ainsi que les développer tout en apprenant des processus de production professionnels.
+                </p>
+            </div>
+
+            <!-- Footer -->
+            <div class="mt-24 pt-10 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-gray-500">
+                <div class="flex items-center gap-6">
+                    <a href="https://github.com/Swiiptz" class="hover:text-white transition-colors">GitHub</a>
+                    <a href="https://www.linkedin.com/in/milan-m%C3%BCller-lieberherr-40856b274" class="hover:text-white transition-colors">LinkedIn</a>
+                    <a href="mailto:m.mullerlieberherr@gmail.com" class="hover:text-white transition-colors">Email</a>
+                </div>
+                
+                <p class="text-xs text-gray-600">Construit avec HTML, Tailwind CSS © 2026 Milan Müller Lieberherr. Tous droits réservés.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" type="button" aria-label="Retour en haut" class="fixed bottom-8 right-8 p-3 rounded-full bg-primary text-white shadow-lg shadow-primary/30 translate-y-20 opacity-0 transition-all duration-300 hover:bg-primaryDark z-40" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        <span class="material-symbols-outlined">arrow_upward</span>
+    </button>
