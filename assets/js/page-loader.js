@@ -24,11 +24,6 @@
             return requested;
         }
 
-        const saved = window.localStorage.getItem("mml-language");
-        if (saved && languages[saved]) {
-            return saved;
-        }
-
         return "fr";
     }
 
@@ -102,8 +97,6 @@
         const root = document.getElementById("site-root");
 
         updateHead(lang, config);
-        window.localStorage.setItem("mml-language", lang);
-
         await loadScript(config.contentScript);
 
         const response = await fetch(config.page);
